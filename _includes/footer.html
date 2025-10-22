@@ -2,24 +2,20 @@
   <div class="container">
     <div class="row p20">
       {% if site.copyright.name %}
-      <div class="col-md-4 text-center mt25">
+      <div class="col-md-3 text-center">
         Contact us:
-        <a target="_blank" href="{{site.copyright.link}}"
-          >{{site.copyright.name}}</a
-        >
+        <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a>
       </div>
       {% endif %}
-      <div class="col-md-4 text-center mt25">
-      </div>
-      <div class="col-md-4 text-center mt25">
+      <div class="col-md-2 text-center">
         {% if site.github %}
-        <a target="_blank" href="{{site.github}}"
-          ><li class="social github"><i class="fa fa-github-square"></i></li
-        ></a>
+        <a target="_blank" href="{{site.github}}">
+          <span class=""><i class="fa fa-github-square mr-2"></i>GitHub</span>
+        </a>
         {% endif %} {% if site.email %}
-        <a target="_blank" href="mailto:{{site.email}}"
-          ><li class="social email"><i class="fa fa-envelope"></i></li
-        ></a>
+        <a target="_blank" href="mailto:{{site.email}}">
+          <span class="social email"><i class="fa fa-envelope"></i>Email</span>
+        </a>
         {% endif %}
       </div>
     </div>

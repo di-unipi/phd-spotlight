@@ -36,7 +36,7 @@ paginate_path: /page:num/
 # facebook: http://facebook.com/
 # quora: http://quora.com/
 # twitter: http://twitter.com/
-github: https://github.com/phd-spotlight
+github: https://github.com/di-unipi/phd-spotlight
 
 # Sass style
 sass:
@@ -47,4 +47,20 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-exclude: [vendor, favicon.ico, Gemfile, Gemfile.lock, Gemfile.local, Gemfile.github, Makefile, README.md, INSTALL.md, LICENSE, .github, .gitignore, pdf-to-png.sh, site_template]
+exclude:
+  [
+    vendor,
+    favicon.ico,
+    Gemfile,
+    Gemfile.lock,
+    Gemfile.local,
+    Gemfile.github,
+    Makefile,
+    README.md,
+    INSTALL.md,
+    LICENSE,
+    .github,
+    .gitignore,
+    pdf-to-png.sh,
+    site_template,
+  ]
